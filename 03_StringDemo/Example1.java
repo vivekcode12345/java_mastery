@@ -1,9 +1,13 @@
-public class Example1 {
+class StringExample1 {
     public static void main(String[] args) {
-        String s1 = "Hello";
-        String s2 = "World";
-        String s3 = s1 + " " + s2;
-        System.out.println(s3.length());
-        System.out.println(s3.charAt(0));
+        String city1=new String("Bhopal");
+        String city2=new String("Bhopal");
+        System.out.println(city1);
+        System.out.println(city2);
+        System.out.println(city1==city2);
+
+        // Get first character of city1
+        char ch1 = city1.charAt(0);
+        System.out.println(ch1);
     }
 }

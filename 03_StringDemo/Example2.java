@@ -1,4 +1,4 @@
-class Example2 {
+class StringExample2 {
     public static void main(String[] args) {
         String city = "Jaipur";
         System.out.println("City: " + city);
