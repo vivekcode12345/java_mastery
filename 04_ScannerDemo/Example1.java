@@ -1,11 +1,14 @@
 import java.util.Scanner;
-
 class Example1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter your name: ");
-        String name = sc.nextLine();
-        System.out.println("Hello, " + name);
-        sc.close();
+        Scanner kb=new Scanner(System.in);
+        int a,b;
+        System.out.println("Enter first numbers");
+        a=kb.nextInt();
+        System.out.println("Enter second numbers");
+        b=kb.nextInt();
+        int c=a+b;
+        System.out.println("Sum of two numbers is "+c);
+        kb.close();
     }
 }
